@@ -1,54 +1,315 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/estilo.css">
     <title>FilmeFlix</title>
 </head>
+
 <body>
     <div class="nome text-center">
         <h1>FILMEFLIX</h1>
     </div>
-    <div class="container bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light cor1">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">FILMEFLIX</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Filmes</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="true">
+                            Opções
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Comédia</a></li>
+                            <li><a class="dropdown-item" href="#">Romance</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Terror</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-light">
         <h2>FILMES DE COMÉDIA</h2>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <img src="assets/images/minhamaeumapeca3.jfif" class="img-fluid" alt="...">
-              </div>
+                <img src="assets/images/minhamaeeumapeca3.jpeg" class="img-fluid" alt="...">
+                <h5>Elenco Principal:</h5>
+                <p>Paulo Gustavo,
+                    Rodrigo Pandolfo,
+                    Mariana Xavier,
+                </p></br>
+                <h5>Sinopse:</h5>
+                <p>Dona Hermínia precisa se redescobrir e se reinventar porque seus filhos estão formando novas
+                    famílias. Marcelina está grávida e Juliano vai casar. Dona Hermínia está mais ansiosa do que nunca.
+                    Para completar as confusões, Carlos Alberto, seu ex-marido, que esteve sempre por perto, agora
+                    resolve se mudar para o apartamento ao lado.</p><br>
+                <h5>Produtora do filme:</h5>
+                <p>Migdal Filmes</p><br>
+                <h5>Duração:</h5>
+                <p>1h 45min</p><br>
+                <h5>Indicação etária:</h5>
+                <p>12 anos</p><br>
+            </div>
             <div class="col-md-3">
-                   <img src="assets/images/toryca.jpg" class="img-fluid" alt="...">
-                </div>
+                <img src="assets/images/toryca.jpeg" class="img-fluid" alt="...">
+                <h5>Elenco Principal:</h5>
+                <p> Samantha Schmütz, Katiuscia Canoro, Marcelo Adnet
+                </p></br>
+                <h5>Sinopse:</h5>
+                <p>Selminha é uma frentista que recebe uma herança de família, mas somente se cumprir o desafio de
+                    gastar 30 milhões de reais em 30 dias, sem acumular nada. No entanto, nessa maratona, ela descobre
+                    que tem coisas que o dinheiro não compra.
+                </p><br>
+                <h5>Produtora do filme:</h5>
+                <p>Globo Filmes</p><br>
+                <h5>Duração:</h5>
+                <p>1h 48min</p><br>
+                <h5>Indicação etária:</h5>
+                <p>12 anos</p><br>
+            </div>
             <div class="col-md-3">
-                    <img src="assets/images/sing2.jfif" class="img-fluid" alt="...">
-                </div>
+                <img src="assets/images/sing2.jfif" class="img-fluid" alt="...">
+                <h5>Elenco Principal:</h5>
+                <p> Matthew McConaughey, Reese Witherspoon, Wanessa Camargo</p></br>
+                <h5>Sinopse:</h5>
+                <p>Na glamourosa cidade de Redshore, Buster Moon e a galera enfrentam seus medos, fazem novos amigos e
+                    superam seus limites em uma jornada para convencer o recluso astro Clay Calloway a subir aos palcos
+                    novamente.
+                </p><br>
+                <h5>Produtoras do filme:</h5>
+                <p> Illumination Entertainment, Universal Studios, Chris Meledandri</p><br>
+                <h5>Duração:</h5>
+                <p>1h 50min</p><br>
+                <h5>Indicação etária:</h5>
+                <p>Livre</p><br>
+            </div>
             <div class="col">
-                    <img src="assets/images/sortenossepare3.jpg" class="img-fluid" alt="...">
-                 </div>
+                <img src="assets/images/atequeasortenossepare3.jpeg" class="img-fluid" alt="...">
+                <h5>Elenco Principal:</h5>
+                <p> Leandro Hassum, Camila Morgado, Kiko Mascarenhas</p></br>
+                <h5>Sinopse:</h5>
+                <p>Depois de perder a herança da família em Las Vegas, Tino precisa se virar para conseguir dinheiro.
+                    Ele começa a vender biscoitos na rua até ser atropelado pelo filho de um milionário, que se apaixona
+                    por sua filha Teté. O pai do rapaz lhe oferece um trabalho na corretora para que ele possa pagar
+                    pelo casamento da filha. No exercício de suas novas funções, Tino leva à falência a maior empresa do
+                    Brasil, mergulhando o país em uma grande crise financeira.
+                </p><br>
+                <h5>Produtoras do filme:</h5>
+                <p>Globo Filmes, Gullane, Miravista</p><br>
+                <h5>Duração:</h5>
+                <p>1h 40min</p><br>
+                <h5>Indicação etária:</h5>
+                <p>14 anos</p><br>
+            </div>
         </div>
     </div>
     <br>
-    <div class="container bg-light">
-            <h2>FILMES DE TERROR</h2>
-</div>
-      <div class="container">
-             <div class="row">
-                    <div class="col-md-3">
-                         <img src="assets/images/oexorcista.jfif" class="img-fluid" alt="...">
-                      </div>
-                <div class="col-md-3">
-                        <img src="assets/images/possessao.jfif" class="img-fluid" alt="...">
-                         </div>
-                    <div class="col-md-3">
-                        <img src="assets/images/residentevill.jfif" class="img-fluid" alt="...">
-                             </div>
-                 <div class="col-md-3">
-                         <img src="assets/images/tempo.jfif" class="img-fluid" alt="...">
-                                 </div>
+    <div class="container text-light">
+        <h2>FILMES DE TERROR</h2>
     </div>
-</body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="assets/images/tempo.jfif" class="img-fluid" alt="...">
+                <h5>Elenco Principal:</h5>
+                <p> Gael García Bernal, Vicky Krieps, Rufus Sewell</p></br>
+                <h5>Sinopse:</h5>
+                <p>Uma família decide se divertir em uma praia e se vê envolvida em um mistério sinistro. O tempo parece
+                    passar de forma diferente no lugar, fazendo com que eles envelheçam anos em alguns minutos.
+                </p><br>
+                <h5>Produtoras do filme:</h5>
+                <p>Blinding Edge Pictures, Universal Studios, Perfect World Pictures</p><br>
+                <h5>Duração:</h5>
+                <p>1h 48min</p><br>
+                <h5>Indicação etária:</h5>
+                <p>14 anos</p><br>
+            </div>
+            <div class="col-md-3">
+                <img src="assets/images/afreira.jpg" class="img-fluid" alt="...">
+                <h5>Elenco Principal:</h5>
+                <p> Taissa Farmiga, Demian Bichir, Bonnie Aarons</p></br>
+                <h5>Sinopse:</h5>
+                <p>Presa em um convento na Romênia, uma freira comete suicídio. Para investigar o caso, o Vaticano envia
+                    um padre assombrado e uma noviça prestes a se tornar freira. Arriscando suas vidas, a fé e até suas
+                    almas, os dois descobrem um segredo profano e se confrontam com uma força do mal que toma a forma de
+                    uma freira demoníaca e transforma o convento em um campo de batalha.
+                </p><br>
+                <h5>Produtoras do filme:</h5>
+                <p>New Line Cinema, Atomic Monster Productions, The Safran Company</p><br>
+                <h5>Duração:</h5>
+                <p>1h 37min</p><br>
+                <h5>Indicação etária:</h5>
+                <p>14 anos</p><br>
+            </div>
+            <div class="col-md-3">
+                <img src="assets/images/possessao1.jfif" class="img-fluid" alt="...">
+                <h5>Elenco Principal:</h5>
+                <p> Sandra Oh, Fivel Stewart, Dermot Mulroney</p></br>
+                <h5>Sinopse:</h5>
+                <p>Clyde compra uma casa nova e a filha mais nova, Em, convence-o a comprar também uma caixa antiga.
+                    Logo, Em se mostra obcecada com o artefato e age de forma cada vez mais estranha. Descobre-se,
+                    então, que ela está possuída por um espírito do mal.
+                </p><br>
+                <h5>Produtoras do filme:</h5>
+                <p>Lionsgate Films</p><br>
+                <h5>Duração:</h5>
+                <p>1h 32min</p><br>
+                <h5>Indicação etária:</h5>
+                <p>16 anos</p><br>
+            </div>
+            <div class="col-md-3">
+                <img src="assets/images/umma.jfif" class="img-fluid" alt="...">
+                <h5>Elenco Principal:</h5>
+                <p> Sandra Oh, Fivel Stewart, Dermot Mulroney</p></br>
+                <h5>Sinopse:</h5>
+                <p>Amanda e sua filha vivem uma vida tranquila em uma fazenda americana, mas quando os restos mortais de
+                    sua mãe, com quem não tinha muito contato, chegam da Coréia, Amanda fica assombrada pelas memórias e
+                    o medo de se transformar em sua própria mãe.
+                </p><br>
+                <h5>Produtoras do filme:</h5>
+                <p>Raimi Productions, Stage 6 Films, Starlight Media, Catchlight Studios</p><br>
+                <h5>Duração:</h5>
+                <p>1h 23min</p><br>
+                <h5>Indicação etária:</h5>
+                <p>14 anos</p><br>
+            </div>
+        </div>
+        <div class="container text-light">
+            <h2>FILMES DE ROMANCE</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="assets/images/crepusculo1.jpeg" class="img-fluid" alt="...">
+                    <h5>Elenco Principal:</h5>
+                    <p> Robert Pattinson, Kristen Stewart, Taylor Lautner
+                    </p></br>
+                    <h5>Sinopse:</h5>
+                    <p>Bella Swan (Kristen Stewart) e Edward Cullen (Robert Pattinson) enfim se casam, em cerimônia com
+                        a presença de amigos e familiares. O casal resolve passar a lua de mel no Rio de Janeiro e, logo
+                        em seguida, Bella engravida. O que eles não esperavam era que a gravidez seria tão complicada,
+                        colocando em risco a vida do bebê e da própria mãe.</p><br>
+                    <h5>Produtora do filme:</h5>
+                    <p>Summit Entertainmen, Goldcrest Films, Aura Films</p><br>
+                    <h5>Duração:</h5>
+                    <p>1h 57min</p><br>
+                    <h5>Indicação etária:</h5>
+                    <p>14 anos</p><br>
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/acincopassosdevc.jfif" class="img-fluid" alt="...">
+                    <h5>Elenco Principal:</h5>
+                    <p> Haley Lu Richardson, Cole Sprouse, Moises Arias
+                    </p></br>
+                    <h5>Sinopse:</h5>
+                    <p>Dois pacientes com fibrose cística se apaixonam, apesar das regras do hospital afirmarem que eles devem manter 1,5 metros de distância entre si.
+                    </p><br>
+                    <h5>Produtora do filme:</h5>
+                    <p>Wayfarer Entertainment, CBS Films, Welle Entertainment</p><br>
+                    <h5>Duração:</h5>
+                    <p>1h 57min</p><br>
+                    <h5>Indicação etária:</h5>
+                    <p>12 anos</p><br>
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/atravesdaminhajanela.jfif" class="img-fluid" alt="...">
+                    <h5>Elenco Principal:</h5>
+                    <p>Julio Peña (III), Clara Galle, Pilar Castro</p></br>
+                    <h5>Sinopse:</h5>
+                    <p>Raquel é apaixonada pelo seu vizinho, Ares, um rapaz frio que vive em um mundo completamente diferente do seu. Porém, o acaso acaba unindo os dois, que se veem envolvidos em uma trama de desejo e amor.
+                    </p><br>
+                    <h5>Produtoras do filme:</h5>
+                    <p>Nostromo Pictures</p><br>
+                    <h5>Duração:</h5>
+                    <p>1h 53min</p><br>
+                    <h5>Indicação etária:</h5>
+                    <p>16 anos</p><br>
+                </div>
+                <div class="col">
+                    <img src="assets/images/comoeueraantesdevoce.jfif" class="img-fluid" alt="...">
+                    <h5>Elenco Principal:</h5>
+                    <p>Emilia Clarke, Sam Claflin, Janet McTeer</p></br>
+                    <h5>Sinopse:</h5>
+                    <p>De origem modesta e sem grandes aspirações, a peculiar Louisa Clark é contratada para ser cuidadora de Will, um jovem tetraplégico depressivo e cínico.
+                    </p><br>
+                    <h5>Produtoras do filme:</h5>
+                    <p>Warner Bros. Pictures, New Line Cinema</p><br>
+                    <h5>Duração:</h5>
+                    <p>1h 50min</p><br>
+                    <h5>Indicação etária:</h5>
+                    <p>12 anos</p><br>
+                </div>
+            </div>
+        </div>
+        <br>
+        <nav class="navbar navbar-expand-lg navbar-light cor2">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">FILMEFLIX</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sobre nós</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="true">
+                                    Opções
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Informações da Empresa</a></li>
+                                    <li><a class="dropdown-item" href="#">Site</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Contato</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                                <button type="button" class="btn btn-outline-success">SALVAR</button>
+                                <button type="button" class="btn btn-outline-secondary">CANCELAR</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </body>
+
 </html>

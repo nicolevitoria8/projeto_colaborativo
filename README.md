@@ -1,2 +1,4 @@
-# projeto_colaborativo
-projeto para aprender a utilizar o git/github de forma colaborativa
+# Projeto para criação do site "FILMEFLIX"
+
+## Repositório
+
