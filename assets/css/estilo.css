@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+h1{
+    color: #BEC2F0;
+    font-size: 50px;
+}
+h2{
+    color: white;
+    font-size: 25px;
+}
+.cor1{
+    background-color: #BEC2F0;
+}
+.cor2{
+    background-color:#BEC2F0;
+}
+h5{
+    color:white;
+    font-size: 15px;
+}
+p{
+    color: white;
+    font-size: 15px;
+}
