@@ -1,25 +1,53 @@
 body{
     background-color: black;
 }
-h1{
-    color: #BEC2F0;
-    font-size: 50px;
+
+table, th, td {
+    border: 1px solid #BEC2F0;
+    border-collapse: collapse;
+
 }
-h2{
+
+th, td {
+    padding: 5px 10px;
     color: white;
-    font-size: 25px;
 }
-.cor1{
+
+th {
     background-color: #BEC2F0;
-}
-.cor2{
-    background-color:#BEC2F0;
-}
-h5{
-    color:white;
-    font-size: 15px;
-}
-p{
     color: white;
-    font-size: 15px;
+}
+
+h1 {
+    color: #BEC2F0;
+    text-align: center;
+}
+
+table {
+    width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+input {
+    background-color: rgb(187, 19, 19);
+    color: white;
+    border:1px solid rgb(187, 19, 19);
+    border-radius: 4px;
+}
+
+
+#botao{ text-align: center;
+}
+
+.botaoincluir{
+    width: 150px;
+    border: 1px solid rgb(187, 19, 19);
+    border-radius: 4px;
+}
+
+.botaoexcluir{
+    width: 150px;
+    border: 1px solid rgb(187, 19, 19);
+    border-radius: 4px;
 }
