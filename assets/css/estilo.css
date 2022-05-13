@@ -1,6 +1,7 @@
 body{
     background-color: black;
 }
+
 table, th, td {
     border: 1px solid #BEC2F0;
     border-collapse: collapse;
